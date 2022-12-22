@@ -1,0 +1,149 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    padding: 15px;
+    font-size: 18px;
+    background-color:darksalmon;
+}
+
+/* header begins*/
+.header
+{
+    position: relative;
+}
+
+.header img
+{
+    position: relative;
+    width: 100%;
+    box-shadow: 2px 3px 20px rgb(7, 2, 0);
+}
+.content
+{
+    position: absolute;
+    top: 10px;
+}
+.content h3
+{
+    margin-top: 60px;
+    font-size: 25px;
+    color: rgba(2, 2, 1, 0.767);
+    font-family: monospace;
+    align-items: center;
+}
+.navigation-bars 
+{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    height: 30px;
+}
+.navigation-bars select
+{
+    border-radius: 20px;
+    height: 50px;
+    background-color: rgba(138, 235, 187, 0);
+    border-color: rgba(252, 250, 250, 0.021);
+}
+
+
+
+/* main bpdy  */
+.main-body .intro
+{
+    margin-top: 30px;
+    color: rgba(58, 1, 1, 0.856);
+}
+.main-body .intro h5
+{
+    font-size: 10px;
+    color: white;
+    letter-spacing: 3px;
+}
+.main-body .intro h2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.main-body .intro p
+{
+    font-family: monospace;
+    font-size: 19px;
+}
+.gallery-view h6
+{
+    margin-top: 30px;
+    font-size:25px;
+    font-family: sans-serif;
+    color: rgb(71, 71, 117);
+    margin-bottom: 40px;
+}
+.gallery-view img
+{
+    margin-bottom: 40px;
+}
+
+
+.services-offered
+{
+    margin-top: 20px;
+}
+.ui-ux , .graphic , .web-design , .videography
+{
+    display: block;
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(233, 178, 107);
+    color: rgb(58, 4, 58);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 2px 2px 10px black;
+}
+.ui-ux i , .graphic i , .web-design i , .videography i
+{
+    font-size: 30px;
+    color: white;
+}
+.contact-seection
+{
+    margin-top: 40px;
+}
+.contact-seection h2
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.contact-seection h1 
+{
+    color: rgb(83, 83, 60);
+    font-family: monospace;
+    text-align: center;
+}
+.contact-seection label
+{
+    font-size: 22px;
+    color: blueviolet;
+}
+.contact-seection p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.contact-seection i
+{
+    font-size: 50px;
+}
+.copyright i
+{
+    text-align: center;
+}
